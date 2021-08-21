@@ -1,9 +1,9 @@
 var randomnumber1;
-randomnumber1=Math.round(Math.random()*5+1);
+randomnumber1=Math.floor(Math.random()*6+1);
 console.log(randomnumber1);
 
 var randomnumber2;
-randomnumber2=Math.round(Math.random()*5+1);
+randomnumber2=Math.floor(Math.random()*6+1);
 console.log(randomnumber2);
 
 var imgstring="images/dice"+randomnumber1+".png";
